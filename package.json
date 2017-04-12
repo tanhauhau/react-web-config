@@ -1,0 +1,50 @@
+{
+  "name": "react-web-config",
+  "version": "1.0.0",
+  "description": "react-native-config for web",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib --ignore **/__tests__/**"
+  },
+  "jest": {
+    "rootDir": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/react-web-config.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "config",
+    "react-native-config",
+    "react-native-web",
+    "web",
+    "env",
+    "dot-env"
+  ],
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanhauhau/react-web-config/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/react-web-config#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^3.5.0",
+    "karma": "^1.6.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.3",
+    "mocha": "^3.2.0",
+    "webpack": "^2.3.3"
+  }
+}

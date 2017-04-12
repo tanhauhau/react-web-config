@@ -1,0 +1,30 @@
+{
+  "name": "ReactWebConfigExample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example for react-web-config",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dev": "webpack-dev-server --port 3000 --config web/webpack.config.js --inline --hot --colors --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-native": "0.39.2",
+    "react-native-config": "0.2.5",
+    "react-native-web": "0.0.71",
+    "react-web-config": "../"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react-native": "^1.0.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
