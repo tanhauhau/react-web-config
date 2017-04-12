@@ -1,5 +1,8 @@
 # react-web-config
 
+[![npm version](https://badge.fury.io/js/react-web-config.svg)](https://badge.fury.io/js/react-web-config)
+[![Donate](https://img.shields.io/gratipay/user/tanhauhau.svg)](https://gratipay.com/~tanhauhau/)
+
 [react-native-config](https://github.com/luggit/react-native-config) for Web.
 Config variables for React Native apps *and React Native Web apps*
 
@@ -7,7 +10,9 @@ Module to expose config variables to your javascript code in React Native, suppo
 
 ### Overview
 
-[react-native-web](https://github.com/necolas/react-native-web) is a project to bring [react-native](https://github.com/facebook/react-native) to the web. [Read more](https://github.com/necolas/react-native-web#why). `react-native-web` lets us to write a single app that runs on mobile platform, ie iOS and Android, as well as browser, however, a typical `react-native` project will use libraries such as `react-native-config` that works perfectly on `react-native` but not on `react-native-web`. `react-web-config` allows you to continue using `react-native-config` seamlessly on the web by adding a few lines in your webpack config.
+[react-native-web](https://github.com/necolas/react-native-web) is a project to bring [react-native](https://github.com/facebook/react-native) to the web. [Read more](https://github.com/necolas/react-native-web#why).
+
+`react-native-web` lets us to write a single app that runs on mobile platform, ie iOS and Android, as well as browser, however, a typical `react-native` project will use libraries such as `react-native-config` that works perfectly on `react-native` but not on `react-native-web`. `react-web-config` allows you to continue using `react-native-config` seamlessly on the web by adding a few lines in your webpack config.
 
 ### Usage
 
