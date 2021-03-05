@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import Config from 'react-native-config'
 
-class App extends Component {
-  render() {
-    return (
-      <View style={Style.container}>
-        <Text style={Style.title}>react-web-config</Text>
-        <Text style={Style.desc}>Platform: {Platform.OS}</Text>
-        {
-          Object.keys(Config).map(key => (
-              <Text key={key} style={Style.desc}>{key}: {Config[key]}</Text>
-          ))
-        }
-      </View>
-    );
-  }
+const App = () => {
+  return (
+    <View style={Style.container}>
+      <Text style={Style.title}>react-web-config</Text>
+      <Text style={Style.desc}>Platform: {Platform.OS}</Text>
+      {
+        Object.keys(Config).map(key => (
+            <Text key={key} style={Style.desc}>{key}: {Config[key]}</Text>
+        ))
+      }
+    </View>
+  );
 }
 
 const Style = StyleSheet.create({
