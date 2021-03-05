@@ -1,6 +1,6 @@
 {
   "name": "react-web-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "react-native-config for web",
   "main": "lib/index.js",
   "scripts": {
@@ -31,20 +31,21 @@
   },
   "homepage": "https://github.com/tanhauhau/react-web-config#readme",
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "webpack": "^2.3.3"
+    "dotenv": "^8.2.0",
+    "webpack": "^5.24.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "chai": "^3.5.0",
-    "karma": "^1.6.0",
-    "karma-coverage": "^1.1.1",
-    "karma-mocha": "^1.3.0",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-flow": "^7.12.13",
+    "chai": "^4.3.3",
+    "karma": "^6.1.1",
+    "karma-coverage": "^2.0.3",
+    "karma-mocha": "^2.0.1",
     "karma-phantomjs-launcher": "^1.0.4",
-    "karma-webpack": "^2.0.3",
-    "mocha": "^3.2.0",
-    "webpack": "^2.3.3"
+    "karma-webpack": "^5.0.0",
+    "mocha": "^8.3.0",
+    "webpack": "^5.24.3"
   }
 }
